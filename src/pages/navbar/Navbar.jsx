@@ -7,7 +7,7 @@ import rest from "../../assets/images/rest.webp"
 import rides from "../../assets/images/offer.webp"
 const Navbar = () => {
     return (
-        <nav className="bg-white mt-8  h-[60px] mx-8 text-[#717d92] py-1 px-6 flex items-center justify-between rounded-2xl pr-[38px]">
+        <nav className="bg-white mt-4  h-[60px] mx-8 text-[#717d92] py-1 px-6 flex items-center justify-between rounded-2xl pr-[38px]">
 
             <div className="p-2 rounded-lg items-center space-x-2 inline-block capitalize -ml-4 hover:scale-105 transition-transform duration-200 ease-in-out">
                 <img src={logo} alt="Logo" className="h-full w-full     object-contain" />
